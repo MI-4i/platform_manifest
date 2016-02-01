@@ -18,7 +18,7 @@
   <remote  name="slimsaber"
            fetch="https://github.com/SlimSaber" />
            
-  <remote  name="slimsaber"
+  <remote  name="MI-4i"
            fetch="https://github.com/MI-4i" />
 
   <default revision="refs/tags/android-6.0.1_r10"
@@ -26,7 +26,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="slimsaber" revision="mm6.0" groups="pdk" >
+  <project path="build" name="android_build" remote="MI-4i" revision="mm6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -447,7 +447,7 @@
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-6.0" />
 
   <!-- SlimSaber -->
-  <project path="android" name="platform_manifest" remote="slimsaber" revision="mm6.0" />
+  <project path="android" name="platform_manifest" remote="MI-4i" revision="mm6.0" />
   <project path="art" name="android_art" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs"/>
