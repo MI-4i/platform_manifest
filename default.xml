@@ -17,6 +17,9 @@
 
   <remote  name="slimsaber"
            fetch="https://github.com/SlimSaber" />
+           
+  <remote  name="slimsaber"
+           fetch="https://github.com/MI-4i" />
 
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
