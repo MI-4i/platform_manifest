@@ -499,6 +499,7 @@
   <project path="system/core" name="android_system_core" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="slimsaber" revision="mm6.0" />
+  <project path="device/xiaomi/ferrari" name="android_device_xiaomi_ferrari" remote="MI-4i" revision="android-6.0" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="slimsaber" revision="mm6.0" />
 
